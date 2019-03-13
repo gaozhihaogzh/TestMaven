@@ -16,6 +16,7 @@ public class AdminServiceImpl implements AdminService {
     @Override
     public Admin login(String name) {
         System.out.println("123");
+        System.out.println("456");
         return adminDao.findByName(name);
     }
 }
