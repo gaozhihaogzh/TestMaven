@@ -17,6 +17,7 @@ public class AdminServiceImpl implements AdminService {
     public Admin login(String name) {
         System.out.println("123");
         System.out.println("456");
+        System.out.println("789");
         return adminDao.findByName(name);
     }
 }
